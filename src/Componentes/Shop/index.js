@@ -12,24 +12,30 @@ export default function Shop() {
         <View style={styles.box}>
           <Text style={ styles.TextBox}>Farmácias</Text>
           <View style={{flexDirection:'row', justifyContent:'space-between',}}>
-          <TouchableOpacity >
-              <Image source={require('../../assests/Araujo.png')}/>
+          <TouchableOpacity>
+              <Image 
+              style={styles.logo}
+              source={require('../../assests/Araujo.png')}/>
               <Text>Araujo</Text>
           </TouchableOpacity>
   
-          <TouchableOpacity >
+          <TouchableOpacity>
               <Image 
+              style={styles.logo}
               source={require('../../assests/Farma.png')}/>
               <Text> Farma </Text>
           </TouchableOpacity>
   
           <TouchableOpacity >
-              <Image source={require('../../assests/PanVel.png')} />
+              <Image 
+              style={styles.logo}
+              source={require('../../assests/PanVel.png')} />
               <Text>PanVel</Text>
           </TouchableOpacity>
   
           <TouchableOpacity >
               <Image 
+              style={styles.logo}
               source={require('../../assests/DrogaRaia.png')}/>
               <Text>DrogaRaia</Text>
           </TouchableOpacity>
@@ -72,6 +78,9 @@ export default function Shop() {
         fontSize: 20,
         fontWeight:'300',
       },
-      
-      
+      logo:{
+        width:50,
+        height:50,
+        resizeMode:'contain'
+      },
     });

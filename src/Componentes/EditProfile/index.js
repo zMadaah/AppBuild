@@ -32,7 +32,7 @@ export default function EditProfile() {
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: 30,
+    marginBottom:245,
   },
   user: {
     flexDirection: "row",

@@ -1,12 +1,17 @@
 import React from 'react';
 import { View,Text, StyleSheet} from 'react-native';
 
+
+import User from '../../Componentes/User';
 import EditProfile from '../../Componentes/EditProfile';
+import LogOut from '../../Componentes/LogOut';
 
 export default function Profile() {
  return (
    <View style={styles.container}>
+    <User/>
     <EditProfile/>
+    <LogOut/>
    </View>
   );
 }
