@@ -18,7 +18,8 @@ export default function Shop() {
           </TouchableOpacity>
   
           <TouchableOpacity >
-              <Image source={require('../../assests/Farma.png')}/>
+              <Image 
+              source={require('../../assests/Farma.png')}/>
               <Text> Farma </Text>
           </TouchableOpacity>
   
